@@ -11,12 +11,14 @@
 </head>
 <body id="top">
 
+
   <!-- HEADER -->
   <header class="header" data-header>
     <div class="container">
       <a href="#" class="logo">
         <img src="./assets/images/logo-header.png" width="182" height="49" alt="Salud Vocal logo">
       </a>
+
       <!-- NavBar -->
       <nav class="navbar" data-navbar>
         <div class="wrapper">
@@ -48,6 +50,7 @@
           </li>
         </ul>
       </nav>
+
       <!-- NavBar contact actions -->
       <div class="header-actions">
         <a href="tel:+56997666467" class="header-action-btn" aria-label="call" title="Llámanos" target="_blank"><ion-icon name="call" aria-hidden="false"></ion-icon></a>
@@ -60,10 +63,26 @@
     </div>
   </header>
   <main>
+
+    <!-- Main Content -->
     <article>
+
+
       <!-- HERO HOME -->
       <section class="section hero" id="home" aria-label="home">
         <div class="container">
+          
+          <!-- Hero banner -->
+          <figure class="hero-banner">
+            <div class="img-holder one" style="--width: 270; --height: 300;">
+              <img src="./assets/images/hero-banner-1.jpg" width="270" height="300" alt="hero banner" class="img-cover">
+            </div>
+            <div class="img-holder two" style="--width: 240; --height: 370;">
+              <img src="./assets/images/hero-banner-2.jpg" width="240" height="370" alt="hero banner" class="img-cover">
+            </div>
+          </figure>
+
+          <!-- Hero content -->
           <div class="hero-content">
             <h1 class="h1 section-title hero-title">
               EL PODER DE <span class="span">COMUNICAR</span> RESIDE EN TU <span class="span">VOZ</span>
@@ -74,17 +93,58 @@
               <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
             </a>
           </div>
-          <!-- Hero banner -->
-          <figure class="hero-banner">
-            <div class="img-holder one" style="--width: 270; --height: 300;">
-              <img src="./assets/images/hero-banner-1.jpg" width="270" height="300" alt="hero banner" class="img-cover">
-            </div>
-            <div class="img-holder two" style="--width: 240; --height: 370;">
-              <img src="./assets/images/hero-banner-2.jpg" width="240" height="370" alt="hero banner" class="img-cover">
+        </div>
+      </section>
+
+      <!-- Evaluation form overlay -->
+      <section class="section">
+        <div class="container">
+          <div class="form-content">
+            <a href="#" class="btn has-before">
+              <span class="span">SOLICITA TU HORA DE EVALUACIÓN</span>
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ABOUT -->
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <div class="about-content">
+            <p class="section-subtitle">sobre nosotros</p>
+            <h2 class="h2 section-title">
+              Más de 15 años de <span class="span">experiencia</span> trabajando por la voz.
+            </h2>
+            <p class="section-text">
+              Contamos con una red de especialistas con postítulos y postgrados de calidad, expertos en el tratamiento y terapia vocal.
+            </p>
+            <ul class="about-list">
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                <span class="span">Fonoaudiólogos Expertos</span>
+              </li>
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                <span class="span">Terapias Online e Híbridas</span>
+              </li>
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                <span class="span">Acceso Ilimitado</span>
+              </li>
+            </ul>
+          </div>
+          <figure class="about-banner">
+            <div class="img-holder" style="--width: 520; --height: 520;">
+              <img src="./assets/images/about-banner-1.jpeg" width="520" height="370" loading="lazy" alt="about banner"
+                class="img-cover">
             </div>
           </figure>
         </div>
       </section>
+
+
       <!-- THERAPY CATEGORIES -->
       <section class="section therapy" aria-label="therapy">
         <div class="container">
@@ -160,40 +220,6 @@
         </div>
       </section>
 
-      <!-- ABOUT -->
-      <section class="section about" id="about" aria-label="about">
-        <div class="container">
-          <figure class="about-banner">
-            <div class="img-holder" style="--width: 520; --height: 370;">
-              <img src="./assets/images/about-banner.jpg" width="520" height="370" loading="lazy" alt="about banner"
-                class="img-cover">
-            </div>
-          </figure>
-          <div class="about-content">
-            <p class="section-subtitle">sobre nosotros</p>
-            <h2 class="h2 section-title">
-              Más de 15 años de <span class="span">experiencia</span> trabajando por la voz.
-            </h2>
-            <p class="section-text">
-              Contamos con una red de especialistas con postítulos y postgrados de calidad, expertos en el tratamiento y terapia vocal.
-            </p>
-            <ul class="about-list">
-              <li class="about-item">
-                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-                <span class="span">Fonoaudiólogos Expertos</span>
-              </li>
-              <li class="about-item">
-                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-                <span class="span">Terapias Online e Híbridas</span>
-              </li>
-              <li class="about-item">
-                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-                <span class="span">Acceso Ilimitado</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
 
       <!-- COURSES -->
       <section class="section course" id="courses" aria-label="course">
