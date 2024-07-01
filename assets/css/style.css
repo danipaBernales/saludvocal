@@ -456,6 +456,14 @@ address {
   gap: 15px;
 }
 
+.about-text {
+  font-size: var(--fs-7);
+}
+
+.about-link {
+  display: flex;
+}
+
 .about-banner {
   position: relative;
   z-index: 1;
