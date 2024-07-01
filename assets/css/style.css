@@ -47,6 +47,7 @@
   --shadow-1: 0 6px 15px 0 hsla(0, 0%, 0%, 0.05);
   --shadow-2: 0 10px 30px hsla(0, 0%, 0%, 0.06);
   --shadow-3: 0 10px 50px 0 hsla(220, 53%, 22%, 0.1);
+  --shadow-4: drop-shadow(0 6px 15px hsla(0, 0%, 0%, 0.4));
 
   /* Radius */
   --radius-pill: 500px;
@@ -266,7 +267,7 @@ address {
 .section-text {
   font-size: var(--fs-5);
   text-align: center;
-  margin-block: 15px 25px;
+  margin-block: 15px 15px;
 }
 
 .grid-list {
@@ -458,10 +459,12 @@ address {
 
 .about-text {
   font-size: var(--fs-7);
+  text-indent: 30px;
 }
 
 .about-link {
   display: flex;
+  align-items: center;
 }
 
 .about-banner {
@@ -472,6 +475,7 @@ address {
 .about-banner .img-holder { 
   border-radius: var(--radius-circle); 
   align-items: center;
+  filter: var(--shadow-4);
 }
 
 .about :is(.section-subtitle, .section-title, .section-text) {
