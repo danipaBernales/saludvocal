@@ -435,26 +435,36 @@ address {
   letter-spacing: 0.04ch;
 }
 
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .85rem;
+  margin-top: 1rem;
+}
+
 .hero .btn { 
-  margin-inline: auto; 
+  padding: 7.5px 15px;
+  font-size: var(--fs-6);
 }
 
 
 /* Form overlay */
 .form {
   background-color: var(--selective-yellow_45);
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding: 3rem;
 }
 
 .form-content .btn {
-  margin-inline: auto; 
+  margin-inline: auto;
+  background-color: var(--radical-red);
 }
 
 
 /* ABOUT */
 .about {
-  padding-block-start: 0 0;
+  padding-block-start: 2rem;
   overflow: hidden;
 }
 
